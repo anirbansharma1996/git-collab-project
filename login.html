@@ -1,0 +1,76 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: linear-gradient(to right, rgb(118, 118, 200) 0%, rgb(73, 73, 132) 100%);
+        }
+        #container{
+            width: 30%;
+            margin: auto;
+            margin-top:60px;
+            height: 650px;
+            border-radius:15px;
+            border: 1px solid whitesmoke;
+            background-color: whitesmoke;
+        }
+        h2{
+            text-align: center;
+            font-size:40px;
+            margin-top: 90px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        #container>input{
+            width: 350px;
+            margin-left: 45px;
+            margin-top: 40px;
+            padding:15px;
+            font-size: 20px;
+            background-color: whitesmoke;
+            border: 0px solid;
+            border-bottom: 3px solid gray;
+                }
+                button{
+                    display: block;
+                    margin: auto;
+                    margin-top: 40px;
+                    width: 80%;
+                    height: 60px;
+                    font-size:20px;
+                    color: white;
+                    border: 0px;
+                    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                    background: linear-gradient(to right, rgb(118, 118, 200) 0%, rgb(73, 73, 132) 100%);
+                }
+                p{
+                    text-align: center;
+                    margin-top: 60px;
+                    font-size: 20px;
+                    color: gray;
+                    line-height: 0px;
+                    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                }
+                p+p{
+                    margin-top: 40px;
+                }
+                a{
+                    color: rgb(68, 68, 177);
+                    text-decoration: none;
+                    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                }
+    </style>
+</head>
+<body>
+    <div id="container">
+             <h2>Login</h2>
+             <input type="text" placeholder="Email">
+             <input type="password" placeholder="Password">
+             <button>Login</button>
+             <p>Forget <a href="">Password</a>?</p>
+             <p>Don't have an account?<a href="">SignUP</a></p>
+    </div>
+</body>
+</html>
