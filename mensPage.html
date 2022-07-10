@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mens Page</title>
+    <style>
+        #container {
+        display: flex;
+        height: auto;
+        width: 100%;
+        border: 1px solid white;
+        }
+        #container>div {
+        border: 1px solid white;
+        width: 45%;
+        height: auto;
+        margin: auto;
+        }
+        #container>div>img {
+        width: 40%;
+        margin-left: 170px;
+        margin-top: 50px;
+        }
+        .ex {
+        color: gray;
+        }
+        .in {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 10px;
+        border: 1px solid  white;
+        width: 50%;
+        font-size: 30px;
+        }
+        .in>div {
+        border: 1px solid white;
+        
+        }
+        .in>:nth-child(2) {
+        text-decoration: line-through;
+        color: gray;
+        }.in>:nth-child(3){
+        color: green;
+        }
+        .in>:nth-child(1){
+        font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div>
+            <img src="https://images.unsplash.com/photo-1578768079052-aa76e52ff62e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGhvb2RpZXxlbnwwfHwwfHw%3D&w=1000&q=80" alt="i1">
+            <h1>Pause</h1>
+            <h1 class="ex">Men Cotton Long Sleeves Shrug</h1>
+            <div class="in">
+                <div>&#8377;359</div>
+                <div>&#8377; 1499</div>
+                <div>-76%</div>
+            </div>
+        </div>
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsEGprRxSnUuWXGJ6MrJVQKqi1WTSKesnPY-wKUsV6ousUhBOiGXKddhzHSZXiR6-Cs7Q&usqp=CAU" alt="i2">
+            <h1>JUBINATON</h1>
+            <h1 class="ex">Men Wool Sleeveless Sweater Pack of 1</h1>
+            <div class="in">
+                <div>&#8377;799</div>
+                <div>&#8377;1499</div>
+                <div>-47%</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
